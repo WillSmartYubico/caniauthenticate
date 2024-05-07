@@ -22,7 +22,8 @@ stats: {
         }
         linux: {
             "120":"y"
-        },
+        }
+    },
     firefox: {
         windows-10: {
             "22H2":"u"
@@ -38,7 +39,8 @@ stats: {
         }
         linux: {
             "???":"u"
-        },
+        }
+    },
     safari: {
         macos: {
             "14":"u"
@@ -46,7 +48,7 @@ stats: {
         ios: {
             "14":"u"
         }
-    },
+    }
 }
 notes: ""
 notes_by_num: {
