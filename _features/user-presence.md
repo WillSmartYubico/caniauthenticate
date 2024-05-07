@@ -19,7 +19,7 @@ stats: {
         },
         android: {
             "14":"y"
-        }
+        },
         linux: {
             "120":"y"
         }
@@ -36,7 +36,7 @@ stats: {
         },
         android: {
             "14":"u"
-        }
+        },
         linux: {
             "???":"u"
         }
