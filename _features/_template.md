@@ -1,7 +1,7 @@
 ---
 title: "Test property"
 description: "This is the description of the test property."
-category: ctap2
+category: extension
 keywords: a, b, c
 last_test_date: "2024-05-08"
 test_url: "/tests/template.html"
@@ -52,7 +52,6 @@ notes_by_num: {
     "1": "FIDO2 Support provided by Windows' webauthn.dll."
 }
 links: {
-    "Can I use: @font-face Web fonts":"https://www.caniuse.com/#feat=fontface",
-    "MDN: @font-face":"https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face"
+    "example link":"https://www.google.com"
 }
 ---
