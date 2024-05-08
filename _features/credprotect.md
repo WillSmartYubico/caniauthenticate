@@ -39,7 +39,7 @@ stats: {
         },
         linux: {
             "123":"u"
-        },
+        }
     }
     safari: {
         macos: {
