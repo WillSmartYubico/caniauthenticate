@@ -1,54 +1,55 @@
 ---
 title: "Credential Protection"
 description: "Also known as credProtect, the Credential Protection extension supports fine-grained control over the circumstances when an authenticator allow a specific discoverable credential to be used."
-category: CTAP2.1 
-keywords: ctap2.1, ctap2.1-pre, rk
+category: ctap21 
+keywords: ctap21,  rk
+tags: ctap21, ctap21-pre
 last_test_date: "2024-05-08"
 test_url: "/tests/template.html"
 test_results_url: ""
 stats: {
     chrome: {
         windows-10: {
-            "124":"u #1"
+            "124":"y #1"
         },
         windows-11: {
-            "124":"u #1"
+            "124":"y #1"
         },
         macos: {
-            "124":"u"
+            "124":"y"
         },
         android: {
-            "124":"u"
+            "124":"y"
         },
         linux: {
-            "124":"a #2"
-        }
-    }
-    firefox: {
-        windows-10: {
-            "123":"u #1"
-        },
-        windows-11: {
-            "123":"u #1"
-        },
-        macos: {
-            "123":"u"
-        },
-        android: {
-            "123":"u"
-        },
-        linux: {
-            "123":"u"
-        }
-    }
-    safari: {
-        macos: {
-            "17.4.1":"u"
-        },
-        ios: {
-            "17.4.1":"u"
+            "124":"y"
         }
     },
+    firefox: {
+        windows-10: {
+            "123":"y #1"
+        },
+        windows-11: {
+            "123":"y #1"
+        },
+        macos: {
+            "123":"y"
+        },
+        android: {
+            "123":"y"
+        },
+        linux: {
+            "123":"y"
+        }
+    },
+    safari: {
+        macos: {
+            "17.4.1":"y"
+        },
+        ios: {
+            "17.4.1":"y"
+        }
+    }
 }
 notes: ""
 notes_by_num: {
