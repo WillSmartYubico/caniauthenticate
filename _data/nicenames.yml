@@ -16,9 +16,9 @@ support:
   unknown: "Support unknown"
   mixed: "Mixed support"
 category:
-  ctap1: "CTAP1"
-  ctap2: "CTAP2"
-  ctap21: "CTAP2.1"
+  ctap1: "CTAP 1"
+  ctap2: "CTAP 2"
+  ctap21: "CTAP 2.1"
   webauthnl1: "WebAuthn L1"
   webauthnl2: "WebAuthn L2"
   webauthnl3: "WebAuthn L3"
