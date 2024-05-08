@@ -9,20 +9,21 @@ test_results_url: "https://app.emailonacid.com/app/acidtest/uz6yTbAfykA362dvPZZK
 stats: {
     chrome: {
         windows-10: {
-            "123":"u #1"
+            "124":"u #1"
         },
         windows-11: {
-            "123":"u #1"
+            "124":"u #1"
         },
         macos: {
-            "123":"u"
+            "124":"u"
         },
         android: {
-            "123":"u"
-        }
-        linux: {
-            "123":"a #2"
+            "124":"u"
         },
+        linux: {
+            "124":"a #2"
+        }
+    }
     firefox: {
         windows-10: {
             "123":"u #1"
@@ -31,20 +32,21 @@ stats: {
             "123":"u #1"
         },
         macos: {
-            "14":"u"
-        },
-        android: {
-            "14":"u"
-        }
-        linux: {
             "123":"u"
         },
+        android: {
+            "123":"u"
+        },
+        linux: {
+            "123":"u"
+        }
+    }
     safari: {
         macos: {
-            "14":"u"
+            "117.4.1":"u"
         },
         ios: {
-            "14":"u"
+            "17.4.1":"u"
         }
     },
 }
