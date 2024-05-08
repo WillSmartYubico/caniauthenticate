@@ -1,7 +1,7 @@
 ---
 title: "HMAC-Secret extension"
 description: "Also known as hmac-secret, the HMAC Secret Extension exposes two secrets to platform per credential, and is required for the implementation of the WebAuthn prf extension using a FIDO2 security key."
-category: extension
+category: ctap2
 keywords: extension, hmac, hmac-secret, prf
 last_test_date: "2024-05-08"
 test_url: "/tests/template.html"
