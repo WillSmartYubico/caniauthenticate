@@ -1,8 +1,9 @@
 ---
-title: "PIN management"
+title: "PIN Management"
 description: "PIN management indicates that the client provides some mechanism for the user to set or change a PIN.  Typically only required when a user registers with an RP that requires user verification, but a PIN has not already been configured."
 category: ctap2
 keywords: uv, clientpin, pin
+tags: ctap2
 last_test_date: "2024-05-07"
 test_url: "/tests/template.html"
 test_results_url: ""
