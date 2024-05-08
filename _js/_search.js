@@ -163,7 +163,7 @@ class Search {
 		let message = '';
 		if(n == 0) {
 			message = 'No results found.';
-			message += ' Why not <a href="https://github.com/hteumeuleu/caniemail/issues?utf8=✓&q=is%3Aissue+is%3Aopen+'+encodeURIComponent(this.term)+'">suggest this feature to be added?</a>';
+			message += ' Why not <a href="https://github.com/WillSmartYubico/caniauthenticate/issues?utf8=✓&q=is%3Aissue+is%3Aopen+'+encodeURIComponent(this.term)+'">suggest this feature to be added?</a>';
 		} else if (n == 1) {
 			message = '1 result found.';
 		} else {
@@ -282,6 +282,6 @@ class Search {
 
 	updateTitle() {
 
-		document.querySelector('title').innerHTML = `Can I email&hellip; "${this.term}" search results`;
+		document.querySelector('title').innerHTML = `Can I authenticate&hellip; "${this.term}" search results`;
 	}
 }
