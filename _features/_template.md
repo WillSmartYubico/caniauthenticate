@@ -9,26 +9,26 @@ test_results_url: "https://app.emailonacid.com/app/acidtest/uz6yTbAfykA362dvPZZK
 stats: {
     chrome: {
         windows-10: {
-            "22H2":"u"
+            "123":"u #1"
         },
         windows-11: {
-            "23H2":"u"
+            "123":"u #1"
         },
         macos: {
-            "14":"u"
+            "123":"u"
         },
         android: {
-            "14":"u"
+            "123":"u"
         }
         linux: {
-            "???":"a #1 #2"
+            "123":"a #2"
         },
     firefox: {
         windows-10: {
-            "22H2":"u"
+            "123":"u #1"
         },
         windows-11: {
-            "23H2":"u"
+            "123":"u #1"
         },
         macos: {
             "14":"u"
@@ -37,7 +37,7 @@ stats: {
             "14":"u"
         }
         linux: {
-            "???":"u"
+            "123":"u"
         },
     safari: {
         macos: {
@@ -50,7 +50,7 @@ stats: {
 }
 notes: "This is a global note."
 notes_by_num: {
-    "1": "Partial. Fixed attachment is not supported.",
+    "1": "FIDO2 Support provided by Windows' webauthn.dll."
     "2": "Partial. Slash syntax values are not supported.",
     "3": "Partial. Values containing background images are not supported.",
     "4": "Buggy. For slash syntax values, it removes the slash character, making the value invalid.",
