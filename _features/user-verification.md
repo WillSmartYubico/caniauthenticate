@@ -1,8 +1,8 @@
 ---
-title: "User Presence"
-description: "First introduced as part of U2F, user presence indicates a user interacted with a FIDO authenticator.  User presence is a mandatory feature for all FIDO authenticators."
-category: ctap1
-keywords: u2f, up
+title: "User Verification"
+description: "First introduced as part of FIDO2, user verification indicates a user verified their ownership of a FIDO authenticator by entering a PIN in the client or otherwise activating the authenticator with a PIN or biometric.  User presence is a mandatory feature for all FIDO2 authenticators."
+category: ctap2
+keywords: uv, clientpin
 last_test_date: "2024-05-07"
 test_url: "/tests/template.html"
 test_results_url: ""
@@ -35,7 +35,7 @@ stats: {
             "123":"y"
         },
         linux: {
-            "123":"y"
+            "a23":"y"
         }
     },
     safari: {
@@ -49,7 +49,8 @@ stats: {
 }
 notes: ""
 notes_by_num: {
-        "1": "FIDO2 Support provided by Windows' webauthn.dll."
+    "1": "FIDO2 Support provided by Windows' webauthn.dll."
+
 }
 links: {
 }

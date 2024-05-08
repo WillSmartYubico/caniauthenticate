@@ -1,8 +1,8 @@
 ---
-title: "User Presence"
-description: "First introduced as part of U2F, user presence indicates a user interacted with a FIDO authenticator.  User presence is a mandatory feature for all FIDO authenticators."
-category: ctap1
-keywords: u2f, up
+title: "PIN management"
+description: "PIN management indicates that the client provides some mechanism for the user to set or change a PIN.  Typically only required when a user registers with an RP that requires user verification, but a PIN has not already been configured."
+category: ctap2
+keywords: uv, clientpin, pin
 last_test_date: "2024-05-07"
 test_url: "/tests/template.html"
 test_results_url: ""
@@ -29,27 +29,28 @@ stats: {
             "123":"y #1"
         },
         windows-11: {
-            "123":"y #1"
+            "123":"y #!"
         },
         macos: {
-            "123":"y"
+            "123":"n"
         },
         linux: {
-            "123":"y"
+            "a23":"n"
         }
     },
     safari: {
         macos: {
-            "14.4.1":"y"
+            "14.4.1":"n"
         },
         ios: {
-            "14.4.1":"y"
+            "14.4.1":"n"
         }
     }
 }
 notes: ""
 notes_by_num: {
-        "1": "FIDO2 Support provided by Windows' webauthn.dll."
+    "1": "FIDO2 Support provided by Windows' webauthn.dll."
+
 }
 links: {
 }
