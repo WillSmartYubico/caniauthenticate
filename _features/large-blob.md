@@ -9,7 +9,7 @@ test_results_url: ""
 stats: {
     chrome: {
         windows-10: {
-            "124":"y #1"
+            "124":"u #1"
         },
         windows-11: {
             "124":"y #1"
@@ -40,7 +40,7 @@ stats: {
     },
     safari: {
         macos: {
-            "17.4.1":"n"
+            "17.4.1":"a #2"
         },
         ios: {
             "17.4.1":"u"
@@ -49,7 +49,8 @@ stats: {
 }
 notes: "This is a global note."
 notes_by_num: {
-    "1": "FIDO2 Support provided by Windows' webauthn.dll."
+    "1": "FIDO2 Support provided by Windows' webauthn.dll.",
+    "2": "Only supported with iCloud keychain.  Security keys and 3rd party passkey providers don't work."
 }
 links: {
     "Large Blob Demo":"https://webauthn-large-blob.glitch.me/"
