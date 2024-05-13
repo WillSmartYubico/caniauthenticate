@@ -35,7 +35,7 @@ stats: {
             "123":"n"
         },
         linux: {
-            "123":"n"
+            "123":"u"
         }
     },
     safari: {
@@ -43,7 +43,7 @@ stats: {
             "17.4.1":"n"
         },
         ios: {
-            "17.4.1":"u"
+            "17.4.1":"n"
         }
     }
 }
@@ -52,6 +52,7 @@ notes_by_num: {
     "1": "FIDO2 Support provided by Windows' webauthn.dll."
 }
 links: {
-    "WebAuthn Test App":"https://webauthntest.identitystandards.io/"
+    "WebAuthn Test App":"https://webauthntest.identitystandards.io/", 
+    "Yubico SDK on CredBlob":"https://docs.yubico.com/yesdk/users-manual/application-fido2/cred-blobs.html"
 }
 ---
