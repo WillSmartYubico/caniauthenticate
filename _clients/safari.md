@@ -1,4 +1,4 @@
 ---
-platforms: [macos, ios]
+platforms: [macos, ios, ipados]
 display_order: 3
 ---
