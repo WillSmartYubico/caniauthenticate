@@ -4,9 +4,10 @@ family:
   safari: "Safari"
 platform:
   ios: "iOS"
+  ipados: "iPadOS"
   android: "Android"
-  windows-10: "Windows 10"
-  windows-11: "Windows 11"
+  windows: "Windows 10"
+  windows11: "Windows 11"
   macos: "macOS"
   linux: "Linux"
 support:
