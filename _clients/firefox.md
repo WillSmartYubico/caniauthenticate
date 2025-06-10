@@ -1,4 +1,4 @@
 ---
-platforms: [windows-10, windows-11, macos, linux]
+platforms: [windows, windows11, macos, linux, android]
 display_order: 2
 ---
